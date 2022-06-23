@@ -46,7 +46,7 @@ margin-bottom: 20px;
 .button{
   width:100px;
   height: 55px;
-  color: whitesmoke;
+  background-color: white;
   /* border-radius: 2px; */
 }
 h1{
