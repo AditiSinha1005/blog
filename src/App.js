@@ -58,7 +58,7 @@ function App() {
   <div className="card-body">
     <h5 className="card-title">{value.Title}</h5>
     <p className="card-text">{value.Year}</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <a href="#" className="btn btn-primary">{value.Plot}</a>
   </div>
 </div>  
 
