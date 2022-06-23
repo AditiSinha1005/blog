@@ -5,9 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/HjH5lgeHeix7kfhup/people-watching-a-horror-movie-in-the-cinema_rnst9v9kx_thumbnail-1080_01.png");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.movie{
+  margin-top: 70px;
+  height:100px;
+  width:700px;
+  margin-left: 300px;
+  margin-right: 40px;
+  /* margin-bottom: px; */
+  /* background-color: black; */
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+/* .App{
+  background-image: url("https://images.pexels.com/photos/414727/pexels-photo-414727.jpeg?cs=srgb&dl=sky-night-clouds-414727.jpg&fm=jpg");
+  background-size: cover;
+  height: 100vh;
+} */
+.search{
+  
+width: 400px;
+height:50px;
+margin-bottom: 20px;
+
+}
+
+.button{
+  width:100px;
+  height: 55px;
+  color: whitesmoke;
+  /* border-radius: 2px; */
+}
+h1{
+  color: beige;
+}
+p{
+  color: black;
+}
+.row{
+  background-color: azure;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  max-height: 400px;
+  max-width:1000px;
+  overflow-y: scroll;
+  justify-content: space-around;
+  border-radius: 10px;
 }
