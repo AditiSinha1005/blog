@@ -22,7 +22,7 @@ function App() {
   setmovie(event.target.value);
   }
   const Start=()=>{
-    axios.get(`http://www.omdbapi.com/?s=${movie}&apikey=2a0b181e`)
+    axios.get(`https://www.omdbapi.com/?s=${movie}&apikey=c298e9de`)
     .then((response)=>{
            console.log(response);
          finsetmovie(response.data.Search);
